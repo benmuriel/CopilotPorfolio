@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <main>
+        <section id="about">
+            <div class="content-wrapper">
+                <div class="image-content">
+                    <img src="your-photo.jpg" alt="Your Photo">
+                </div>
+                <div class="text-content">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Muriel Mupunga Mwinkeu, a passionate programmer with expertise in web development and artificial intelligence. I love creating innovative solutions that simplify processes and improve efficiency. With a solid background in HTML, CSS, JavaScript, and various backend technologies, I strive to build high-performance and user-friendly applications.</p>
+                    <p>Besides coding, I am an avid continuous learner, constantly exploring new technologies and trends in the software development field.</p>
+                </div>                
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-wrapper">
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div id="messages">
+                    <h3>Visitor Messages:</h3>
+                    <ul id="messageList"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
